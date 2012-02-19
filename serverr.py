@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 #
 # N9 Personal Web Server

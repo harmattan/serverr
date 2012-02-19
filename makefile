@@ -12,6 +12,7 @@ install:
 	cp *.qml *.png $(DESTDIR)/opt/$(APP_NAME)/
 	mkdir -p $(DESTDIR)/opt/$(APP_NAME)/bin/
 	cp $(APP_NAME).py $(DESTDIR)/opt/$(APP_NAME)/bin/
+	chmod +x $(DESTDIR)/opt/$(APP_NAME)/bin/$(APP_NAME).py
 	mkdir -p $(DESTDIR)/usr/share/applications/
 	cp $(APP_NAME).desktop $(DESTDIR)/usr/share/applications/
 

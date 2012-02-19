@@ -2,4 +2,4 @@
 Type=Application
 Name=Web Server
 Icon=/opt/serverr/serverr.png
-Exec=invoker --single-instance --type=e python /opt/serverr/bin/serverr.py
+Exec=invoker --single-instance --type=e /opt/serverr/bin/serverr.py
